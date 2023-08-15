@@ -64,3 +64,7 @@ facebook.addEventListener("click", () => {
 twitter.addEventListener("click", () => {
   window.location.href = "https://twitter.com/DeWebb_";
 });
+
+const a = document.querySelector(".item a");
+
+console.log(a);
